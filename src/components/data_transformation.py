@@ -84,7 +84,7 @@ class DataTransformation:
                 logging.info("Saving preprocessor object to disk for the first time...")
                 save_object(
                     file_path=self.data_transformation_config.preprocessor_obj_file_path,
-                    obj=preprocessor
+                    obj=preprocessing_obj
                 )
             else:
                 logging.info("Preprocessor file already exists, skipping save.")
@@ -97,3 +97,4 @@ class DataTransformation:
             )
         except Exception as e:
             raise CustomException(e, sys)
+    
