@@ -1,4 +1,4 @@
-# Student Exam Performance Indicator
+# Student Score Predictor
 
 This project implements an end-to-end machine learning pipeline to predict student mathematics scores based on various demographic and academic factors. It includes data ingestion, data transformation, model training, and a Flask-based web application for making predictions.
 
